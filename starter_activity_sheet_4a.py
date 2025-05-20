@@ -8,8 +8,8 @@ from turtle import *
 # remember to use this for turtle graphics in Python
 
 
-def mystery():
-    color('green', 'red')
+def square():
+    color('orange', 'blue')
     begin_fill()
     forward (100) 
     right (90)
@@ -22,4 +22,23 @@ def mystery():
     end_fill()
     done()
 
-mystery()
+square()
+
+penup()
+right(90)
+forward (150)
+pendown()
+
+def triangle():
+    color('red', 'green')
+    begin_fill()
+    forward (100) 
+    right (120)
+    forward (100) 
+    right (120) 
+    forward (100) 
+    right (120)
+    end_fill()
+    done()
+
+triangle()    

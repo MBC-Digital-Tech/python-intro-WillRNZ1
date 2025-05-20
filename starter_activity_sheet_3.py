@@ -8,20 +8,18 @@ def cooking():
     print("1. Chicken curry ")
     print("2. Veggie lasagne")
     print("3. Burger and salad")
-    # add one more meal here
+    print("4. Smelly Soup")
     print()
-    # adapt the next line to add in the 4.
-    print("Which of these meals is your favourite? (1, 2 or 3) ")
-    # combine the line above and below into one command that accepts an integer instead of a string.
-    answer = input()
-    # adapt the if else block to include the fourth meal and compares integers instead of strings.
-    if answer == "1":
+    print("Which of these meals is your favourite? (1, 2, 3 or 4) ")
+    answer = int(input())
+    if answer == 1:
         print("Chicken curry coming up")
-    elif answer == "2":
+    elif answer == 2:
         print("Veggie lasagne coming up")
+    elif answer == 4:
+        print("Smelly soup coming up")
     else:
         print("Burger and salad coming up!")
     print("Enjoy!")
     
-# add a command to run the function above.
-
+cooking()
