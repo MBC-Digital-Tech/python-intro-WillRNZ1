@@ -5,16 +5,13 @@ def conversation():
     print()
 
     # combine the next two lines into one command.
-    print("Do you like cycling? Answer yes or no")
-    answer = input()
+    print("Enter a number ")
+    number = int(input())
 
     # chenge this so that the user can enter YES as well.
-    if answer == "yes":
-        print("That's good - you will get very fit")
+    if number != 99:
+        print("Right")
     else:
-        print("Perhaps you like some other sport. ")
-    
-    print("Goodbye")
-
+        print("Wrong.")
+conversation()
 # Add command here to run the function
-
